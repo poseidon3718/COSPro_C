@@ -1,3 +1,5 @@
+// 20240405 Cì–¸ì–´ ì½”ë”©
+
 #include <stdio.h>
 
 int main(void)
@@ -34,8 +36,8 @@ printf("num1: %d, num2: %d \n", num1, num2);
 printf("%d + %d = %d \n", num1, num2, result1);
 printf("%d - %d = %d \n", num1, num2, result2);
 printf("%d * %d = %d \n", num1, num2, result3);
-printf("%d / %d = %d(¸ò) \n", num1, num2, result4);
-printf("%d / %d = %d(³ª¸ÓÁö) \n", num1, num2, result5);
+printf("%d / %d = %d(Â¸Ã²) \n", num1, num2, result4);
+printf("%d / %d = %d(Â³ÂªÂ¸Ã“ÃÃ¶) \n", num1, num2, result5);
 
 return 0;
 */
