@@ -11,13 +11,13 @@ int main(void)
 	printf("입력한 실수 %f \n", num1);
 
 	printf("실수 입력2(e 표기법으로) : ");
-	scanf_s("%f", &num2);
-	printf("입력한 실수 %f \n", num2);
+	scanf_s("%lf", &num2);
+	printf("입력한 실수 %lf \n", num2);
 
 	printf("실수 입력3(e 표기법으로) : ");
-	scanf_s("%f", &num3);
-	printf("입력한 실수 %f \n", num3);
-	
+	scanf_s("%lf", &num3);
+	printf("입력한 실수 %lf \n", num3);
+
 
 	return 0;
 }
@@ -32,7 +32,7 @@ int main(void)
 */
 
 /*
-	printf("%-8s %14s %5s \n", "이름" , "기계공학" , "학년");
+	printf("%-8s %14s %5s \n", "이름", "기계공학", "학년");
 	printf("%-8s %10s %5s \n", "이름", "기계공학", "학년");
 */
 
