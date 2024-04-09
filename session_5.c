@@ -57,7 +57,7 @@ int main(void)
 
 /*
 	int myAge = 12;
-	printf(" my age %d, %o %#x %#X \n", myAge, myAge, myAge, myAge, myAge);
+	printf(" my age %d, %o %#o %#x %#X \n", myAge, myAge, myAge, myAge, myAge);
 */
 
 /*
