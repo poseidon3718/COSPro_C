@@ -1,3 +1,5 @@
+// 20240409 C언어 코딩
+
 #include<stdio.h>
 
 int main(void)
