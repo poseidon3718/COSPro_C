@@ -1,4 +1,4 @@
-// 20240411 C¾ğ¾î ÄÚµù
+// 20240411 Cì–¸ì–´ ì½”ë”©
 
 #include<stdio.h>
 
@@ -30,7 +30,7 @@ int main(void)
 	for (; input >= 0.0;)
 	{
 		total += input;
-		printf(" ½Ç¼ö¸¦ ÀÔ·Â(minus to quit) :");
+		printf(" ì‹¤ìˆ˜ ì…ë ¥(minus to quit) :");
 		scanf_s("%lf", &input);
 		printf(" + %lf", input);
 		num++;
@@ -39,14 +39,14 @@ int main(void)
 	printf("\\n");
 	printf(" total sum = %lf \\n\\n", total);
 
-	printf("Æò±Õ : %lf \\n\\n", total / (num - 1));
+	printf("í‰ê·  : %lf \\n\\n", total / (num - 1));
 */
 
 /*
 int total = 0;
 int i = 0, sum = 0;
 
-printf("0ºÎÅÍ num ±îÁö µ¡¼À sumdÀº?");
+printf("0ë¶€í„° num ê¹Œì§€ ë§ì…ˆ sumì€?");
 scanf_s("%d", &sum);
 printf("%d", total);
 
@@ -104,7 +104,7 @@ printf(" = %d \\n", total);
 /*
 	int dan = 0, num = 0;
 
-	printf("±¸±¸´ÜÀÇ ´Ü¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä");
+	printf("ëª‡ ë‹¨ ì…ë‹ˆê¹Œ? : ");
 	scanf_s("%d", &dan);
 
 	while (num <= 9)
