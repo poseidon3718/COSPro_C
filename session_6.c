@@ -12,9 +12,9 @@ int main(void)
 	{
 		for (num = 0; num < 10; num++)
 		{
-			printf(" %d x %d = %d \\n", dan, num, dan * num);
+			printf(" %d x %d = %d \n", dan, num, dan * num);
 		}
-		printf("\\n\\n");
+		printf("\n\n");
 	}
 
 
