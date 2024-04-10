@@ -36,10 +36,10 @@ int main(void)
 		num++;
 	}
 
-	printf("\\n");
-	printf(" total sum = %lf \\n\\n", total);
+	printf("\n");
+	printf(" total sum = %lf \n\n", total);
 
-	printf("평균 : %lf \\n\\n", total / (num - 1));
+	printf("평균 : %lf \n\n", total / (num - 1));
 */
 
 /*
@@ -56,7 +56,7 @@ for (i = 1; i <= sum; i++)
 	printf(" + %d", i);
 }
 
-printf(" = %d \\n", total);
+printf(" = %d \n", total);
 */
 
 /*
@@ -64,13 +64,13 @@ printf(" = %d \\n", total);
 
 	for (num = 0; num < 3;num++)
 	{
-		printf("Hi for \\n");
+		printf("Hi for \n");
 	}
 
 	num = 0;
 	while (num < 3)
 	{
-		printf("Hi while \\n");
+		printf("Hi while \n");
 		num++;
 	}
 */
@@ -80,7 +80,7 @@ printf(" = %d \\n", total);
 
 	do
 	{
-		printf("%d \\n", num);
+		printf("%d \n", num);
 		num++;
 	} while (num < 0);
 */
@@ -93,11 +93,11 @@ printf(" = %d \\n", total);
 		num = 0;
 		while (num <= 9)
 		{
-			printf(" %d x %d = %d \\n", dan, num, dan * num);
+			printf(" %d x %d = %d \n", dan, num, dan * num);
 			num++;
 		}
 		dan++;
-		printf("\\n\\n\\n");
+		printf("\n\n\n");
 	}
 */
 
@@ -109,7 +109,7 @@ printf(" = %d \\n", total);
 
 	while (num <= 9)
 	{
-		printf(" %d x %d = %d \\n", dan , num, dan * num);
+		printf(" %d x %d = %d \n", dan , num, dan * num);
 		num++;
 	}
 	return 0;
@@ -120,7 +120,7 @@ printf(" = %d \\n", total);
 
 	while (num < 3)
 	{
-		printf("%d \\n", num);
+		printf("%d \n", num);
 		num++;
 	}
 
